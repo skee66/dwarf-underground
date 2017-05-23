@@ -1,27 +1,12 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import Header from './Header'
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-    <div className="expanded row header">
-      <div className="clearfix">
-        <div className="float-left logo">
-          <img src="http://www.iconninja.com/files/409/4/1006/axe-icon.svg" alt="axe" />
-        </div>
-        <div className="float-right nav-links">
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Log in</a>
-        </div>
-      </div>
-      <div className="headline text-center small-12 columns">
-        <h1>The Dwarf Underground</h1>
-        <h3>Delving deep for the <span className="gold">shiniest</span> news</h3>
-      </div>
-    </div>
+        <Header />
 
     <main className="expanded row">
       <div className="large-8 medium-12 columns article">
@@ -67,9 +52,9 @@ class App extends Component {
             <a href="#">visit sponsor</a>
           </div>  
           <h4>Mining diamonds or crushing the skulls of your enemies, the SmashMaster 4000 does it all</h4>
-          <p className="ad-text">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. Souvlaki ignitus carborundum e pluribus unum. Defacto lingo est igpay atinlay. Marquee selectus non provisio incongruous feline nolo contendre. Gratuitous octopus niacin, sodium glutimate. Quote meon an estimate et non interruptus stadium.</p>
+          <p>Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. Souvlaki ignitus carborundum e pluribus unum. Defacto lingo est igpay atinlay. Marquee selectus non provisio incongruous feline nolo contendre. Gratuitous octopus niacin, sodium glutimate. Quote meon an estimate et non interruptus stadium.</p>
 
-          <p className="ad-text">Sic tempus fugit esperanto hiccup estrogen. Glorious baklava ex librus hup hey ad infinitum. Non sequitur condominium facile et geranium incognito. Epsum factorial non deposit quid pro quo hic escorol. Marquee selectus non provisio incongruous feline nolo contendre Olypian quarrels et gorilla congolium sic ad nauseum. Souvlaki ignitus carborundum e pluribus unum.</p>
+          <p>Sic tempus fugit esperanto hiccup estrogen. Glorious baklava ex librus hup hey ad infinitum. Non sequitur condominium facile et geranium incognito. Epsum factorial non deposit quid pro quo hic escorol. Marquee selectus non provisio incongruous feline nolo contendre Olypian quarrels et gorilla congolium sic ad nauseum. Souvlaki ignitus carborundum e pluribus unum.</p>
         </div>
       </aside>
 
